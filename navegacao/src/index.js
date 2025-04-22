@@ -1,3 +1,4 @@
+import "./index.css";
 import { createRoot } from "react-dom/client";
 import React from "react";
 import App from "./views/App";
@@ -5,8 +6,4 @@ import App from "./views/App";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
-root.render(
-  <div>
-    <App />
-  </div>
-);
+root.render(<App />);
